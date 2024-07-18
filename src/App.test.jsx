@@ -22,7 +22,7 @@ describe("App", () => {
   it("renders Vite + React", () => {
     const { container } = render(<App title="React" />);
     const h1 = container.querySelector("#title");
-    expect(h1.textContent).contains("Vite + Reacttttt");
+    expect(h1.textContent).contains("Vite + React");
   });
 
   it('Learn React link has href', () => {
